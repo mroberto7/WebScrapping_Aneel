@@ -1,0 +1,10 @@
+O Banco de Dados - DEC e FEC reúne informações de duas fontes principais:
+
+1. website da ANEEL
+2. arquivos .csv raspados do website da Aneel, localizados em ./files
+
+A atualização dos arquivos .csv deve ser feita anualmente, bastando a execução do script raspagem_aneel_conjuntos_eletricos.py neste diretório;
+modificando, apenas, o valor da variável "ANO" para o número de correspondente ao ano de referência.
+Por exemplo, para gerar o arquivo .csv referente ao ano 2021, basta editar o script em questão, atribuindo "2021" à variável "ANO".
+
+O Banco de Dados - DEC e FEC estará atualizado.
